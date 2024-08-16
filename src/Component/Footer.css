@@ -1,0 +1,133 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .newsletter-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter {
+    flex: 1;
+    margin-right: 20px;
+    min-width: 200px;
+    max-width: 100%;
+  }
+  
+  .contact-currency {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    min-width: 200px;
+    max-width: 100%;
+  }
+  
+  .subscribe {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  .subscribe button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .link-section {
+    flex: 1;
+    min-width: 150px;
+    margin-right: 20px;
+    max-width: 100%;
+  }
+  
+  .link-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .follow-us {
+    text-align: left;
+  }
+  
+  .payment-icons img {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  
+  .copyright {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-separator {
+    border: 1px solid #333;
+    width: 100%;
+    max-width: 1200px; /* Matches the max width of the other sections */
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .newsletter-contact {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-currency {
+      align-items: center;
+    }
+  
+    .links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .link-section {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .subscribe input,
+    .subscribe button {
+      max-width: 100%;
+    }
+  }
+  

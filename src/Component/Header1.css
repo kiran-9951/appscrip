@@ -1,0 +1,13 @@
+.Top {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+}
+
+.Top-image {
+    height: 100%; /* Ensures the image height matches the div height */
+    width: auto; /* Maintains the aspect ratio of the images */
+}

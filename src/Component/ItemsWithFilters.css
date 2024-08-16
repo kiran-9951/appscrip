@@ -1,0 +1,115 @@
+/* Container for items and filters */
+.items-and-filters {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* Texts Section */
+  .texts {
+    flex: 1;
+    margin-right: 20px;
+    position: relative;
+    top: 50px;
+    font-size: 24px; /* Adds space between texts and filters */
+  }
+  
+  /* Filter Controls */
+  .filter-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+   
+  }
+  
+  /* Toggle Filters Button */
+  .toggle-filters {
+    cursor: pointer;
+  }
+  
+  /* Recommended Container */
+  .recommended-container {
+    position: relative;
+    margin-left: 20px;
+    font-size: 24px; /* Space between filters and recommended dropdown */
+  }
+  
+  /* Recommended Button */
+  .recommended-button {
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Recommended Dropdown */
+  .recommended-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Recommended Dropdown Select */
+  .recommended-dropdown select {
+    padding: 5px;
+  }
+  
+  /* Filters Container */
+  .filters-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 250px;
+  }
+  
+  /* Product Container */
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  /* Individual Product Item */
+  .product-item {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 20px);
+    height: 250px;
+    overflow: hidden; /* Ensure content stays within bounds */
+  }
+  
+  .filters-open .product-item {
+    width: calc(33.333% - 20px);
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain; /* Ensure the image fits within the div without stretching */
+    margin-bottom: 10px;
+  }
+  
+  /* Product Title */
+  .product-title {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  

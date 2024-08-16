@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Optional: add a background color */
+  }
+  
+  .logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .logo img {
+    max-height: 50px; /* Adjust the size of the logo image */
+  }
+  
+  .logo_text {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; /* Adds space between icons */
+  }
+  
+  .icons img {
+    max-height: 30px; /* Adjust the size of the icons */
+    cursor: pointer; /* Optional: add a pointer cursor on hover */
+  }
+  .navbar {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add space between the links */
+    padding: 10px 0; /* Optional: add padding for spacing */
+    background-color: #f8f9fa; /* Optional: background color */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove the blue underline */
+    color: #333; /* Set the text color */
+    font-weight: bold; /* Optional: make the text bold */
+    font-size: 16px; /* Adjust the font size */
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Optional: change color on hover */
+  }
+  .text {
+    text-align: center; /* Center the text */
+    margin: 0 auto; /* Center the div */
+    max-width: 600px; /* Optional: limit the width of the text container */
+    padding: 20px; /* Optional: add padding around the text */
+  }
+  
+  .text h1 {
+    margin-bottom: 20px; /* Add space between the heading and paragraph */
+  }
+  
+  .text p {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.6; /* Adjust line spacing for readability */
+    color: #333; /* Set the text color */
+    display: block; /* Ensure the paragraph is displayed as a block element */
+    margin-top: 10px; /* Add margin to ensure it's not collapsing */
+  }
+  
+  
